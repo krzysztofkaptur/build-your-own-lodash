@@ -1,4 +1,5 @@
 # Creates a slice of array with n elements dropped from the beginning.
+# drop(array, [n=1])
 
 def drop(arr, num = 1):
     if num == 0:

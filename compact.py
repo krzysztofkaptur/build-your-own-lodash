@@ -1,4 +1,5 @@
 # Creates an array with all falsey values removed. The values false, None, 0, "", and NaN are falsey.
+# compact(array)
 
 def compact(arr):
     result = []
