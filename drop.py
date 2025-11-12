@@ -1,7 +1,15 @@
-# Creates a slice of array with n elements dropped from the beginning.
-# drop(array, [n=1])
-
 def drop(arr, num = 1):
+    """
+    Creates a slice of array with n elements dropped from the beginning.
+
+    Args:
+        arr (list): The list to modify.
+        num (int, optional): The number of items to be removed, counting from the left. Defaults to 1
+
+    Returns:
+        list: A new list with filtered values.
+    """
+
     if num == 0:
         return arr
     

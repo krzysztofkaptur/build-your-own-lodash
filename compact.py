@@ -1,7 +1,14 @@
-# Creates an array with all falsey values removed. The values false, None, 0, "", and NaN are falsey.
-# compact(array)
-
 def compact(arr):
+    """
+    Creates an array with all falsey values removed. The values false, None, 0, "", and NaN are falsey.
+
+    Args:
+        arr (list): List of items.
+
+    Returns:
+        list: A new list with falsey values removed.
+    """
+        
     result = []
 
     for item in arr:

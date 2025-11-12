@@ -1,7 +1,15 @@
-# Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
-# chunk(array, [size=1])
+def chunk(arr, num = 1):
+    """
+    Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
 
-def chunk(arr, num):
+    Args:
+        arr (list): List of items.
+        size (int, optional): The size of chunks. Defaults to 1.
+
+    Returns:
+        list: A new list with chunks.
+    """
+
     result = []
     count = 0
     temp_arr = []
