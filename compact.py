@@ -3,11 +3,11 @@
 def compact(arr):
     result = []
 
-    for i in arr:
-        if bool(i):
-            result.append(i)
+    for item in arr:
+        if bool(item):
+            result.append(item)
 
     return result
 
 # For testing
-print(compact([0, 1, False, 2, '', 3])) # [1, 2, 3]
+# print(compact([0, 1, False, 2, '', 3])) # [1, 2, 3]
