@@ -12,4 +12,5 @@ def join(arr, separator = ","):
 
     return f"{separator}".join(arr)
 
-print(join(['a', 'b', 'c'], '~')) # 'a~b~c'
+# For testing
+# print(join(['a', 'b', 'c'], '~')) # 'a~b~c'
