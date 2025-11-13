@@ -3,7 +3,7 @@ def findIndex(arr, predicate, fromIndex = 0):
     This method returns the index of the first element predicate returns truthy.
 
     Args:
-        arr (list): The array to inspect.
+        arr (list): The list to inspect.
         predicate (function): The function invoked per iteration.
         fromIndex (int, optional): The index to search from. Defaults to 0.
 

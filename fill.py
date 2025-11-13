@@ -1,6 +1,6 @@
 def fill(arr, value, start = 0, end = None):
     """
-    Fills elements of array with value from start up to, but not including, end.
+    Fills elements of list with value from start up to, but not including, end.
 
     Args:
         arr (list): The list to modify.

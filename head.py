@@ -1,12 +1,12 @@
 def head(arr):
     """
-    Gets the first element of array.
+    Gets the first element of list.
 
     Args:
-        arr (list): The array to query.
+        arr (list): The list to query.
 
     Returns:
-        (any): Returns the first element of array.
+        (any): Returns the first element of list.
     """
     
     return arr[0] if len(arr) > 0 else None

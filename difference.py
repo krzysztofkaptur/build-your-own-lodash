@@ -1,6 +1,6 @@
 def difference(arr1, arr2):
     """
-    Creates an array of array values not included in the other given arrays. The order and references of result values are determined by the first array.
+    Creates an list of list values not included in the other given lists. The order and references of result values are determined by the first list.
 
     Args:
         arr1 (list): List of items to be checked.

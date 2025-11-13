@@ -1,6 +1,6 @@
 def chunk(arr, num = 1):
     """
-    Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
+    Creates an list of elements split into groups the length of size. If list can't be split evenly, the final chunk will be the remaining elements.
 
     Args:
         arr (list): List of items.

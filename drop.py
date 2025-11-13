@@ -1,6 +1,6 @@
 def drop(arr, num = 1):
     """
-    Creates a slice of array with n elements dropped from the beginning.
+    Creates a slice of list with n elements dropped from the beginning.
 
     Args:
         arr (list): The list to modify.

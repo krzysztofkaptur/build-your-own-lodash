@@ -1,6 +1,6 @@
 def compact(arr):
     """
-    Creates an array with all falsey values removed. The values false, None, 0, "", and NaN are falsey.
+    Creates an list with all falsey values removed. The values false, None, 0, "", and NaN are falsey.
 
     Args:
         arr (list): List of items.
